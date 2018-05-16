@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <parameter name="browser" value="Chrome"/>
+  <test name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="executionEngine.Driver_TestNG">
+        <methods>
+          <include name="initialize_parameters"/>
+          <include name="executeTestCases"/>
+        </methods>
+      </class> <!-- executionEngine.Driver_TestNG -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

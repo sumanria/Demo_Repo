@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="38776" started-at="2018-05-16T16:54:08Z" finished-at="2018-05-16T16:54:46Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="38776" started-at="2018-05-16T16:54:08Z" finished-at="2018-05-16T16:54:46Z">
+      <class name="executionEngine.Driver_TestNG">
+        <test-method status="PASS" signature="initialize_parameters(java.lang.String)[pri:0, instance:executionEngine.Driver_TestNG@cb51256]" name="initialize_parameters" is-config="true" duration-ms="7802" started-at="2018-05-16T22:24:08Z" finished-at="2018-05-16T22:24:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize_parameters -->
+        <test-method status="PASS" signature="executeTestCases()[pri:0, instance:executionEngine.Driver_TestNG@cb51256]" name="executeTestCases" duration-ms="30921" started-at="2018-05-16T22:24:16Z" finished-at="2018-05-16T22:24:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestCases -->
+      </class> <!-- executionEngine.Driver_TestNG -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
